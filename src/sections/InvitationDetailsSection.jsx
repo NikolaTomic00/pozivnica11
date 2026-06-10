@@ -29,7 +29,7 @@ function WeddingRingsIcon() {
         strokeWidth="3"
       />
     </svg>
-  )
+  );
 }
 
 function InvitationDetailsSection() {
@@ -66,7 +66,7 @@ function InvitationDetailsSection() {
 
             <div className="space-y-2 text-xl leading-7">
               <p className="text-2xl font-semibold tracking-[0.14em]">
-                06.06.2026.
+                07.10.2026.
               </p>
               <p className="uppercase tracking-[0.18em]">Hotel Moskva</p>
               <p className="uppercase tracking-[0.18em]">Beograd</p>
@@ -77,14 +77,14 @@ function InvitationDetailsSection() {
             </p>
 
             <p className="mx-auto max-w-72 px-3 pt-2 text-base leading-6">
-              Molimo Vas da potvrdite dolazak klikom na dugme "potvrdi
-              dolazak", koje se nalazi ispod, najkasnije do 01.06.2026.
+              Molimo Vas da potvrdite dolazak klikom na dugme "potvrdi dolazak",
+              koje se nalazi ispod, najkasnije do 01.09.2026.
             </p>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default InvitationDetailsSection
+export default InvitationDetailsSection;

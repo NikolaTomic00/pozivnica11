@@ -1,5 +1,6 @@
 import InvitationDetailsSection from './sections/InvitationDetailsSection'
 import ProfilePictureSection from './sections/ProfilePictureSection'
+import TimelineSection from './sections/TimelineSection'
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
     >
       <ProfilePictureSection />
       <InvitationDetailsSection />
-      {/* EventTimeSection */}
+      <TimelineSection />
       {/* CountdownSection */}
       {/* LocationSection */}
       {/* RSVPSection */}

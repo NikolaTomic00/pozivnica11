@@ -61,10 +61,16 @@ function RSVPButton({ children, href }) {
 function RSVPSection() {
   return (
     <section
-      className="mx-auto w-full max-w-107.5 px-6 pb-16 pt-4 [--frame-gold:#b68d48] md:max-w-140 md:pb-20"
+      className="relative mx-auto w-full max-w-107.5 overflow-hidden px-6 pb-16 pt-4 [--frame-gold:#b68d48] md:max-w-140 md:pb-20"
       aria-label="RSVP"
     >
-      <div className="mx-auto overflow-hidden rounded-t-full border border-[#b68d48] bg-[#f6f1e9] shadow-[0_18px_35px_rgb(80_72_58_/_0.08)]">
+      <img
+        className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover select-none"
+        src="/2 bottom.png"
+        alt=""
+      />
+
+      <div className="relative z-10 mx-auto overflow-hidden rounded-t-full border border-[#b68d48] bg-[#f6f1e9] shadow-[0_18px_35px_rgb(80_72_58_/_0.08)]">
         <div className="flex min-h-[460px] flex-col items-center justify-center rounded-t-full px-8 py-16 text-center font-['Times_New_Roman',Times,serif] text-[#993e0a] sm:min-h-[540px] sm:px-10 sm:py-20">
           <p className="mx-auto max-w-74 text-lg leading-7">
             Molim Vas klikom na dugme ispod da potvrdite Vaš dolazak.

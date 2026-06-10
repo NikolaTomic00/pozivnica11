@@ -59,13 +59,13 @@ function InvitationDetailsSection() {
                 Dragi gosti
               </p>
 
-              <p className="mx-auto max-w-72 text-lg leading-7">
+              <p className="mx-auto max-w-72 text-l leading-6">
                 Pozivamo Vas da svojim prisustvom učinite naš dan posebnim.
               </p>
             </div>
 
-            <div className="space-y-2 text-xl leading-7">
-              <p className="text-2xl font-semibold tracking-[0.14em]">
+            <div className="space-y-2 text-l leading-7">
+              <p className="text-xl font-semibold tracking-[0.14em]">
                 07.10.2026.
               </p>
               <p className="uppercase tracking-[0.18em]">Hotel Moskva</p>
@@ -76,7 +76,7 @@ function InvitationDetailsSection() {
               Porodice Jović i Marić
             </p>
 
-            <p className="mx-auto max-w-72 px-3 pt-2 text-base leading-6">
+            <p className="mx-auto max-w-72 px-2 pt-2 text-base text-l leading-6">
               Molimo Vas da potvrdite dolazak klikom na dugme "potvrdi dolazak",
               koje se nalazi ispod, najkasnije do 01.09.2026.
             </p>

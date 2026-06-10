@@ -72,7 +72,7 @@ function InvitationDetailsSection() {
               <p className="uppercase tracking-[0.18em]">Beograd</p>
             </div>
 
-            <p className="mx-auto w-fit whitespace-nowrap border-b border-[#993e0a]/60 px-2 pb-1 font-['Rumble_Brave','Rumble_Brave_Script','Allura','Great_Vibes',cursive] text-[clamp(28px,7vw,36px)] leading-none">
+            <p className="mx-auto w-fit whitespace-nowrap border-b border-[#993e0a]/60 px-2 pb-1 font-['Playwrite_GB_J',cursive] text-[clamp(24px,6vw,32px)] leading-none">
               Porodice Jović i Marić
             </p>
 

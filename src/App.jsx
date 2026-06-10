@@ -1,4 +1,5 @@
 import InvitationDetailsSection from './sections/InvitationDetailsSection'
+import CountdownSection from './sections/CountdownSection'
 import ProfilePictureSection from './sections/ProfilePictureSection'
 import TimelineSection from './sections/TimelineSection'
 
@@ -11,7 +12,7 @@ function App() {
       <ProfilePictureSection />
       <InvitationDetailsSection />
       <TimelineSection />
-      {/* CountdownSection */}
+      <CountdownSection />
       {/* LocationSection */}
       {/* RSVPSection */}
     </main>

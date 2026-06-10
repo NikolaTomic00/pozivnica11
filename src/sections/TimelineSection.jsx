@@ -1,8 +1,13 @@
-import { Button } from '../components/ui/button'
+import { Button } from "../components/ui/button";
 
 function MapPinIcon() {
   return (
-    <svg className="size-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <svg
+      className="size-3.5"
+      viewBox="0 0 24 24"
+      fill="none"
+      aria-hidden="true"
+    >
       <path
         d="M12 21s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z"
         stroke="currentColor"
@@ -18,7 +23,7 @@ function MapPinIcon() {
         strokeWidth="2"
       />
     </svg>
-  )
+  );
 }
 
 function TimelineEvent({ icon, title, address, time, mapUrl }) {
@@ -34,18 +39,24 @@ function TimelineEvent({ icon, title, address, time, mapUrl }) {
 
       <div className="space-y-5">
         <div className="space-y-2">
-          <h2 className="text-2xl font-semibold">{title}</h2>
+          <h2 className="text-2xl font-bold">{title}</h2>
           <p className="text-lg leading-6">{address}</p>
           <p className="text-2xl font-bold tracking-[0.12em]">{time}</p>
         </div>
 
-        <Button as="a" size="compact" href={mapUrl} target="_blank" rel="noreferrer">
+        <Button
+          as="a"
+          size="compact"
+          href={mapUrl}
+          target="_blank"
+          rel="noreferrer"
+        >
           <MapPinIcon />
           Pogledaj na mapi
         </Button>
       </div>
     </article>
-  )
+  );
 }
 
 function TimelineSection() {
@@ -67,12 +78,20 @@ function TimelineSection() {
           icon="/3.2.png"
           title="Svečana proslava"
           address="Hotel Moskva, Beograd"
+          time="15:00h"
+          mapUrl="https://www.google.com/maps/search/?api=1&query=Hotel%20Moskva%2C%20Beograd"
+        />
+
+        <TimelineEvent
+          icon="/3.3.png"
+          title="Građansko venčanje"
+          address="Hotel Moskva, Beograd"
           time="16:00h"
           mapUrl="https://www.google.com/maps/search/?api=1&query=Hotel%20Moskva%2C%20Beograd"
         />
       </div>
     </section>
-  )
+  );
 }
 
-export default TimelineSection
+export default TimelineSection;

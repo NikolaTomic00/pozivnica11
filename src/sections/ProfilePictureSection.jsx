@@ -21,14 +21,14 @@ function ProfilePictureSection() {
       </div>
 
       <div className="relative z-20 mx-auto mt-8 w-full max-w-96 px-6 text-center">
-        <h1 className="flex items-baseline justify-center gap-2 whitespace-nowrap font-['Rumble_Brave','Rumble_Brave_Script','Allura','Great_Vibes',cursive] text-[clamp(50px,13vw,76px)] leading-none font-normal text-[var(--frame-gold)]">
+        <h1 className="flex items-baseline justify-center gap-2 whitespace-nowrap font-['Playwrite_GB_J',cursive] text-[clamp(44px,11vw,64px)] leading-none font-normal text-[var(--frame-gold)]">
           <span>Milica</span>
-          <span>&amp;</span>
+          <span>i</span>
           <span>Dušan</span>
         </h1>
       </div>
     </section>
-  )
+  );
 }
 
-export default ProfilePictureSection
+export default ProfilePictureSection;

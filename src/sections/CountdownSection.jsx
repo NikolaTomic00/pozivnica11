@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { assetPath } from "../lib/assetPath";
 
 const weddingDate = new Date("2026-10-07T00:00:00+02:00").getTime();
 
@@ -56,7 +57,7 @@ function CountdownSection() {
         <div className="relative mx-auto h-[clamp(200px,59vw,326px)] w-full max-w-112 overflow-hidden">
           <img
             className="absolute left-1/2 top-0 w-full -translate-x-1/2 select-none"
-            src="/4.1.png"
+            src={assetPath("4.1.png")}
             alt=""
           />
         </div>

@@ -1,4 +1,5 @@
 import { Button } from "../components/ui/button";
+import { assetPath } from "../lib/assetPath";
 
 function MapPinIcon() {
   return (
@@ -67,7 +68,7 @@ function TimelineSection() {
     >
       <div className="mx-auto space-y-14 font-['Geist',Arial,sans-serif] text-black">
         <TimelineEvent
-          icon="/3.1.png"
+          icon={assetPath("3.1.png")}
           title="Crkveno venčanje"
           address="Kralja Petra 5, Beograd"
           time="13:00h"
@@ -75,7 +76,7 @@ function TimelineSection() {
         />
 
         <TimelineEvent
-          icon="/3.2.png"
+          icon={assetPath("3.2.png")}
           title="Svečana proslava"
           address="Hotel Moskva, Beograd"
           time="15:00h"
@@ -83,7 +84,7 @@ function TimelineSection() {
         />
 
         <TimelineEvent
-          icon="/3.3.png"
+          icon={assetPath("3.3.png")}
           title="Građansko venčanje"
           address="Hotel Moskva, Beograd"
           time="16:00h"

@@ -1,3 +1,5 @@
+import { assetPath } from "../lib/assetPath";
+
 function WeddingRingsIcon() {
   return (
     <svg
@@ -40,12 +42,12 @@ function InvitationDetailsSection() {
     >
       <img
         className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover select-none"
-        src="/2 top.png"
+        src={assetPath("2 top.png")}
         alt=""
       />
       <img
         className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover select-none"
-        src="/2 bottom.png"
+        src={assetPath("2 bottom.png")}
         alt=""
       />
 

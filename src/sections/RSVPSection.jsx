@@ -1,3 +1,5 @@
+import { assetPath } from "../lib/assetPath";
+
 function CheckIcon() {
   return (
     <svg className="size-4" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -66,7 +68,7 @@ function RSVPSection() {
     >
       <img
         className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover select-none"
-        src="/2 bottom.png"
+        src={assetPath("2 bottom.png")}
         alt=""
       />
 

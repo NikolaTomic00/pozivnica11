@@ -1,3 +1,5 @@
+import { assetPath } from "../lib/assetPath";
+
 function ProfilePictureSection() {
   return (
     <section
@@ -6,7 +8,7 @@ function ProfilePictureSection() {
     >
       <img
         className="absolute top-2 -right-px z-10 h-auto w-[clamp(370px,98vw,456px)] mix-blend-multiply pointer-events-none select-none md:top-1.5 md:-right-1 md:w-117"
-        src="/11.svg"
+        src={assetPath("11.svg")}
         alt=""
       />
 
@@ -14,7 +16,7 @@ function ProfilePictureSection() {
         <div className="relative h-full w-full overflow-hidden rounded-t-full bg-[var(--frame-gold)] shadow-[inset_0_0_0_1px_rgb(255_255_255_/_0.22)] after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:content-[''] after:shadow-[inset_0_1px_0_rgb(255_255_255_/_0.34),inset_0_-1px_0_rgb(96_66_25_/_0.2)]">
           <img
             className="block h-full w-full object-cover object-[48%_50%]"
-            src="/profilepic.jpg"
+            src={assetPath("profilepic.jpg")}
             alt="Couple portrait"
           />
         </div>

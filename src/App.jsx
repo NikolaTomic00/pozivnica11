@@ -1,6 +1,8 @@
 import InvitationDetailsSection from './sections/InvitationDetailsSection'
 import CountdownSection from './sections/CountdownSection'
+import LocationSection from './sections/LocationSection'
 import ProfilePictureSection from './sections/ProfilePictureSection'
+import RSVPSection from './sections/RSVPSection'
 import TimelineSection from './sections/TimelineSection'
 
 function App() {
@@ -13,8 +15,8 @@ function App() {
       <InvitationDetailsSection />
       <TimelineSection />
       <CountdownSection />
-      {/* LocationSection */}
-      {/* RSVPSection */}
+      <RSVPSection />
+      <LocationSection />
     </main>
   )
 }

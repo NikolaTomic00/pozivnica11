@@ -23,6 +23,12 @@
   }
 }
 
+@keyframes rsvp-button-border {
+  to {
+    stroke-dashoffset: -560;
+  }
+}
+
 :root {
   --bg:
     radial-gradient(circle at 84% 86%, #f8f8f8 0 18%, rgb(248 248 248 / 0) 45%),
@@ -52,4 +58,8 @@ body {
 
 .animate-border {
   animation: border 5.5s linear infinite;
+}
+
+.animate-rsvp-button-border {
+  animation: rsvp-button-border 3s linear infinite;
 }

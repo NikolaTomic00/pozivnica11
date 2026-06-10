@@ -50,7 +50,7 @@ function CountdownSection() {
 
   return (
     <section
-      className="mx-auto w-full max-w-107.5 px-6 pb-16 pt-2 [--frame-gold:#b68d48] md:max-w-140 md:pb-20"
+      className="mx-auto w-full max-w-107.5 px-6 py-4 [--frame-gold:#b68d48] md:max-w-140"
       aria-label="Countdown"
     >
       <div className="mx-auto text-center text-[var(--frame-gold)]">
@@ -64,13 +64,13 @@ function CountdownSection() {
 
         <div className="mx-auto mt-5 flex max-w-88 items-center justify-center gap-5">
           <span className="h-px flex-1 bg-[var(--frame-gold)]" />
-          <p className="whitespace-nowrap font-['Playwrite_GB_J',cursive] text-[clamp(22px,6vw,30px)] leading-none">
+          <p className="whitespace-nowrap font-['Playwrite_GB_J',cursive] text-[clamp(22px,6vw,30px)] italic leading-none">
             07/10/2026
           </p>
           <span className="h-px flex-1 bg-[var(--frame-gold)]" />
         </div>
 
-        <p className="mt-7 whitespace-nowrap font-['Playwrite_GB_J',cursive] text-[clamp(30px,8.6vw,50px)] leading-none">
+        <p className="mt-7 whitespace-nowrap font-['Edwardian_Script_ITC',cursive] text-[clamp(45px,17vw,60px)] leading-none">
           Brojimo zajedno
         </p>
 

@@ -74,11 +74,11 @@ function InvitationDetailsSection() {
               <p className="uppercase tracking-[0.18em]">Beograd</p>
             </div>
 
-            <p className="mx-auto w-fit whitespace-nowrap border-b border-[#993e0a]/60 px-2 pb-1 font-['Playwrite_GB_J',cursive] text-[clamp(24px,6vw,32px)] leading-none">
+            <p className="mx-auto w-fit whitespace-nowrap border-b border-[#993e0a]/60 px-2 pb-1 font-['Times_New_Roman',Times,serif] text-[clamp(21px,5.2vw,28px)] italic leading-none">
               Porodice Jović i Marić
             </p>
 
-            <p className="mx-auto max-w-72 px-2 pt-2 text-base text-l leading-6">
+            <p className="mx-auto max-w-72 px-2 pt-2 text-sm leading-5">
               Molimo Vas da potvrdite dolazak klikom na dugme "potvrdi dolazak",
               koje se nalazi ispod, najkasnije do 01.09.2026.
             </p>

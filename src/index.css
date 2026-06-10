@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600&family=Geist:wght@400;500;600;700&family=Great+Vibes&display=swap");
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Edwardian Script ITC";
+  src: url("./assets/fonts/edwardianscriptitc.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
 @property --border-angle {
   inherits: false;
   initial-value: 0deg;

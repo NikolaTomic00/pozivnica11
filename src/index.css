@@ -9,6 +9,14 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "Bickham Script Pro";
+  src: url("./assets/fonts/bickham-script-pro-semibold.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
+
 @property --border-angle {
   inherits: false;
   initial-value: 0deg;

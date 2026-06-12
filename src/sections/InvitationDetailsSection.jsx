@@ -3,7 +3,7 @@ import { assetPath } from "../lib/assetPath";
 function WeddingRingsIcon() {
   return (
     <svg
-      className="mx-auto size-12 text-[var(--frame-gold)]"
+      className="mx-auto size-12 text-[#993e0a]"
       viewBox="0 0 64 64"
       fill="none"
       aria-hidden="true"
@@ -57,7 +57,7 @@ function InvitationDetailsSection() {
             <WeddingRingsIcon />
 
             <div className="space-y-5">
-              <p className="text-xl font-semibold uppercase tracking-[0.2em]">
+              <p className="text-xl uppercase tracking-[0.2em]">
                 Dragi gosti
               </p>
 

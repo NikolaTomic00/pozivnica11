@@ -3,7 +3,7 @@ import { assetPath } from "../lib/assetPath";
 function WeddingRingsIcon() {
   return (
     <svg
-      className="mx-auto size-12 text-[#993e0a]"
+      className="mx-auto size-12 text-[var(--frame-gold)]"
       viewBox="0 0 64 64"
       fill="none"
       aria-hidden="true"

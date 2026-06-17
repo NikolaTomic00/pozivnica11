@@ -65,7 +65,7 @@ function RSVPSection() {
       aria-label="RSVP"
     >
       <div className="mx-auto flex flex-col items-center justify-center py-10 font-['Playfair_Display',serif] text-[#993e0a]">
-        <p className="mx-auto max-w-74 text-[0.875rem] leading-[1.7]">
+        <p className="mx-auto max-w-74 text-[0.875rem] leading-[1.7] text-black">
           Molim Vas klikom na dugme ispod da potvrdite Vaš dolazak.
         </p>
 

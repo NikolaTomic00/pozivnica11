@@ -73,7 +73,7 @@ function RSVPSection() {
       />
 
       <div className="relative z-10 mx-auto overflow-hidden rounded-t-full border border-[#b68d48] bg-[#f6f1e9] shadow-[0_18px_35px_rgb(80_72_58_/_0.08)]">
-        <div className="flex min-h-[460px] flex-col items-center justify-center rounded-t-full px-8 py-16 text-center font-['Libre_Baskerville',serif] text-[#993e0a] sm:min-h-[540px] sm:px-10 sm:py-20">
+        <div className="flex min-h-[460px] flex-col items-center justify-center rounded-t-full px-8 py-16 text-center font-['Playfair_Display',serif] text-[#993e0a] sm:min-h-[540px] sm:px-10 sm:py-20">
           <p className="mx-auto max-w-74 text-[0.875rem] leading-[1.7]">
             Molim Vas klikom na dugme ispod da potvrdite Vaš dolazak.
           </p>

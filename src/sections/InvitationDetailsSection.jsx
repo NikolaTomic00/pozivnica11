@@ -52,22 +52,22 @@ function InvitationDetailsSection() {
       />
 
       <div className="animate-border relative z-10 mx-auto bg-[conic-gradient(from_var(--border-angle),#b68d48_0_66%,#7f5d2a_73%,#e0ad4f_80%,#fff0b8_84%,#d49a36_88%,#7f5d2a_94%,#b68d48_100%)] p-1 shadow-[0_18px_35px_rgb(80_72_58_/_0.08)]">
-        <div className="bg-white/88 px-8 py-10 text-center font-['Times_New_Roman',Times,serif] text-[#993e0a] backdrop-blur-[1px] sm:py-12">
+        <div className="bg-white/88 px-8 py-10 text-center font-['Playfair_Display',serif] text-[#993e0a] backdrop-blur-[1px] sm:py-12">
           <div className="space-y-7">
             <WeddingRingsIcon />
 
             <div className="space-y-5">
-              <p className="text-xl uppercase tracking-[0.2em]">
+              <p className="text-[1.2rem] leading-[1.2] uppercase tracking-[0.2em]">
                 Dragi gosti
               </p>
 
-              <p className="mx-auto max-w-72 text-l leading-6">
+              <p className="mx-auto max-w-72 text-[0.9rem] leading-[1.7]">
                 Pozivamo Vas da svojim prisustvom učinite naš dan posebnim.
               </p>
             </div>
 
-            <div className="space-y-2 text-l leading-7">
-              <p className="text-xl font-semibold tracking-[0.14em]">
+            <div className="space-y-2 text-[1rem] leading-[1.7]">
+              <p className="text-[1.3rem] leading-[1.2] font-semibold tracking-[0.14em]">
                 07.10.2026.
               </p>
               <p className="uppercase tracking-[0.18em]">Hotel Moskva</p>
@@ -78,7 +78,7 @@ function InvitationDetailsSection() {
               Porodice Jović i Marić
             </p>
 
-            <p className="mx-auto max-w-72 px-2 pt-2 text-sm leading-5">
+            <p className="mx-auto max-w-72 px-2 pt-2 text-[0.8rem] leading-[1.7]">
               Molimo Vas da potvrdite dolazak klikom na dugme "potvrdi dolazak",
               koje se nalazi ispod, najkasnije do{" "}
               <span className="font-bold">01.09.2026.</span>

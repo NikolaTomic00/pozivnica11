@@ -43,7 +43,7 @@ function TimelineEvent({ icon, title, address, time, mapUrl }) {
           <h2 className="font-['Great_Vibes',cursive] text-[2.7rem] leading-none font-normal">
             {title}
           </h2>
-          <p className="font-['Playfair_Display',serif] text-[1rem] leading-[1.7]">
+          <p className="font-['Libre_Baskerville',serif] text-[1rem] leading-[1.7]">
             {address}
           </p>
           <p className="text-[1.3rem] leading-[1.2] font-bold tracking-[0.12em]">

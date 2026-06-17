@@ -1,5 +1,3 @@
-import { assetPath } from "../lib/assetPath";
-
 function CheckIcon() {
   return (
     <svg className="size-4" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -63,26 +61,18 @@ function RSVPButton({ children, href }) {
 function RSVPSection() {
   return (
     <section
-      className="relative mx-auto w-full max-w-107.5 overflow-hidden px-6 pb-16 pt-4 [--frame-gold:#b68d48] md:max-w-140 md:pb-20"
+      className="mx-auto w-full max-w-107.5 px-6 pb-16 pt-4 text-center [--frame-gold:#b68d48] md:max-w-140 md:pb-20"
       aria-label="RSVP"
     >
-      <img
-        className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover select-none"
-        src={assetPath("2 bottom.png")}
-        alt=""
-      />
+      <div className="mx-auto flex flex-col items-center justify-center py-10 font-['Playfair_Display',serif] text-[#993e0a]">
+        <p className="mx-auto max-w-74 text-[0.875rem] leading-[1.7]">
+          Molim Vas klikom na dugme ispod da potvrdite Vaš dolazak.
+        </p>
 
-      <div className="relative z-10 mx-auto overflow-hidden rounded-t-full border border-[#b68d48] bg-[#f6f1e9] shadow-[0_18px_35px_rgb(80_72_58_/_0.08)]">
-        <div className="flex min-h-[460px] flex-col items-center justify-center rounded-t-full px-8 py-16 text-center font-['Playfair_Display',serif] text-[#993e0a] sm:min-h-[540px] sm:px-10 sm:py-20">
-          <p className="mx-auto max-w-74 text-[0.875rem] leading-[1.7]">
-            Molim Vas klikom na dugme ispod da potvrdite Vaš dolazak.
-          </p>
-
-          <RSVPButton href="https://docs.google.com/forms/d/e/1FAIpQLSdmWj9fsw7zgAPd_51eBlPMMvcSGrxClSnLJPzPWzSSJNHqAQ/viewform?usp=dialog">
-            <CheckIcon />
-            Potvrdi dolazak
-          </RSVPButton>
-        </div>
+        <RSVPButton href="https://docs.google.com/forms/d/e/1FAIpQLSdmWj9fsw7zgAPd_51eBlPMMvcSGrxClSnLJPzPWzSSJNHqAQ/viewform?usp=dialog">
+          <CheckIcon />
+          Potvrdi dolazak
+        </RSVPButton>
       </div>
     </section>
   );

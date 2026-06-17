@@ -70,7 +70,7 @@ function CountdownSection() {
           <span className="h-px flex-1 bg-[var(--frame-gold)]" />
         </div>
 
-        <p className="mt-7 whitespace-nowrap font-['Edwardian_Script_ITC',cursive] text-[3.75rem] leading-none">
+        <p className="mt-7 whitespace-nowrap font-['Great_Vibes',cursive] text-[2.7rem] leading-none font-normal">
           Brojimo zajedno
         </p>
 

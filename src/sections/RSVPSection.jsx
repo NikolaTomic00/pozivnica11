@@ -17,7 +17,7 @@ function CheckIcon() {
 function RSVPButton({ children, href }) {
   return (
     <a
-      className="group relative mt-10 inline-flex min-h-13 items-center justify-center overflow-visible rounded-full bg-[#efe5d6] px-8 py-3.5 font-['Geist',Arial,sans-serif] text-sm font-semibold uppercase tracking-[0.08em] text-[#993e0a] shadow-[0_12px_24px_rgb(153_62_10_/_0.12)] transition-colors duration-300 hover:bg-[#ead8c0] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b68d48]"
+      className="group relative mt-10 inline-flex min-h-13 items-center justify-center overflow-visible rounded-full bg-[#efe5d6] px-8 py-3.5 font-['Geist',Arial,sans-serif] text-[0.875rem] font-semibold uppercase tracking-[0.08em] text-[#993e0a] shadow-[0_12px_24px_rgb(153_62_10_/_0.12)] transition-colors duration-300 hover:bg-[#ead8c0] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b68d48]"
       href={href}
     >
       <svg
@@ -74,7 +74,7 @@ function RSVPSection() {
 
       <div className="relative z-10 mx-auto overflow-hidden rounded-t-full border border-[#b68d48] bg-[#f6f1e9] shadow-[0_18px_35px_rgb(80_72_58_/_0.08)]">
         <div className="flex min-h-[460px] flex-col items-center justify-center rounded-t-full px-8 py-16 text-center font-['Times_New_Roman',Times,serif] text-[#993e0a] sm:min-h-[540px] sm:px-10 sm:py-20">
-          <p className="mx-auto max-w-74 text-lg leading-7">
+          <p className="mx-auto max-w-74 text-[1.125rem] leading-7">
             Molim Vas klikom na dugme ispod da potvrdite Vaš dolazak.
           </p>
 

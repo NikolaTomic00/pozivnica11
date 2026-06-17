@@ -23,7 +23,7 @@ function ProfilePictureSection() {
       </div>
 
       <div className="relative z-20 mx-auto mt-8 w-full max-w-96 px-6 text-center">
-        <h1 className="flex items-baseline justify-center gap-2 whitespace-nowrap font-['Edwardian_Script_ITC',cursive] text-[clamp(62px,16vw,94px)] leading-none font-normal text-[var(--frame-gold)]">
+        <h1 className="flex items-baseline justify-center gap-2 whitespace-nowrap font-['Edwardian_Script_ITC',cursive] text-[3.9rem] leading-none font-normal text-[var(--frame-gold)]">
           <span>Milica</span>
           <span>i</span>
           <span>Dušan</span>

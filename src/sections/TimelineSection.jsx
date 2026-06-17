@@ -40,7 +40,7 @@ function TimelineEvent({ icon, title, address, time, mapUrl }) {
 
       <div className="space-y-5">
         <div className="space-y-2">
-          <h2 className="font-['Great_Vibes',cursive] text-[clamp(2.7rem,10vw,3.6rem)] leading-none font-normal">
+          <h2 className="font-['Great_Vibes',cursive] text-[2.7rem] leading-none font-normal">
             {title}
           </h2>
           <p className="font-['Playfair_Display',serif] text-[1rem] leading-[1.7]">

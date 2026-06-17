@@ -6,8 +6,8 @@ const variants = {
 }
 
 const sizes = {
-  default: 'min-h-11 px-6 py-2.5 text-sm',
-  compact: 'min-h-8 px-4 py-1.5 text-[10px]',
+  default: 'min-h-11 px-6 py-2.5 text-[0.875rem]',
+  compact: 'min-h-8 px-4 py-1.5 text-[0.625rem]',
 }
 
 function cn(...classes) {

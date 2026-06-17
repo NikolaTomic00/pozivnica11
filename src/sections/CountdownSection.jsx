@@ -19,11 +19,11 @@ function CountdownBox({ value, label }) {
     <div className="flex min-w-0 flex-col items-center gap-2">
       <div className="relative flex aspect-square w-full items-center justify-center overflow-hidden rounded-lg border border-[#b68d48]/55 bg-[#f6f1e9] shadow-[0_12px_24px_rgb(80_72_58_/_0.08)]">
         <span className="absolute left-0 top-0 h-px w-1/2 animate-[countdown-scan_2.4s_linear_infinite] bg-gradient-to-r from-transparent via-[#993e0a] to-transparent" />
-        <span className="font-['Geist',Arial,sans-serif] text-[clamp(24px,7vw,38px)] font-bold leading-none text-[var(--frame-gold)]">
+        <span className="font-['Geist',Arial,sans-serif] text-[1.7rem] font-bold leading-none text-[var(--frame-gold)]">
           {String(value).padStart(2, "0")}
         </span>
       </div>
-      <span className="font-['Geist',Arial,sans-serif] text-[10px] font-semibold uppercase tracking-[0.14em] text-[#993e0a] sm:text-xs">
+      <span className="font-['Geist',Arial,sans-serif] text-[0.625rem] font-semibold uppercase tracking-[0.14em] text-[#993e0a] sm:text-[0.75rem]">
         {label}
       </span>
     </div>
@@ -64,13 +64,13 @@ function CountdownSection() {
 
         <div className="mx-auto mt-5 flex max-w-88 items-center justify-center gap-5">
           <span className="h-px flex-1 bg-[var(--frame-gold)]" />
-          <p className="whitespace-nowrap font-['Playwrite_GB_J',cursive] text-[clamp(22px,6vw,30px)] italic leading-none">
+          <p className="whitespace-nowrap font-['Playwrite_GB_J',cursive] text-[1.45rem] italic leading-none">
             07/10/2026
           </p>
           <span className="h-px flex-1 bg-[var(--frame-gold)]" />
         </div>
 
-        <p className="mt-7 whitespace-nowrap font-['Edwardian_Script_ITC',cursive] text-[clamp(45px,17vw,60px)] leading-none">
+        <p className="mt-7 whitespace-nowrap font-['Edwardian_Script_ITC',cursive] text-[3.75rem] leading-none">
           Brojimo zajedno
         </p>
 

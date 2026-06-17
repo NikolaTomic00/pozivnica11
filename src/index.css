@@ -52,7 +52,8 @@
     linear-gradient(158deg, #f5f5f5 0%, #eeeeee 42%, #e7e7e7 78%, #f4f4f4 100%);
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
 
-  font: 16px/145% var(--sans);
+  font-family: var(--sans);
+  line-height: 1.45;
   color-scheme: light;
   background: var(--bg);
   font-synthesis: none;

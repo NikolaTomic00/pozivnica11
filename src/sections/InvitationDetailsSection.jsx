@@ -60,17 +60,17 @@ function InvitationDetailsSection() {
               Pozivamo Vas da svojim prisustvom učinite naš dan posebnim.
             </p>
 
-            <p className="mt-5 font-['Geist','Arial',sans-serif] text-[1.3rem] leading-[1.2] tracking-[0.14em]">
+            <p className="mt-5 font-['Geist','Arial',sans-serif] text-[1.3rem] font-normal leading-[1.2] tracking-[0.14em]">
               07.10.2026.
             </p>
 
-            <div className="mt-4 font-['Geist','Arial',sans-serif] text-[0.9rem] font-medium leading-[1.5]">
+            <div className="mt-4 font-['Geist','Arial',sans-serif] text-[0.9rem] font-normal leading-[1.5]">
               <p>13:00 h - crkveno venčanje</p>
               <p>15:00 h - svečana proslava</p>
               <p>16:00 h - građansko venčanje</p>
             </div>
 
-            <p className="mt-4 text-[1rem] leading-[1.45] tracking-[0.08em]">
+            <p className="mt-4 text-[1rem] font-normal leading-[1.45] tracking-[0.08em]">
               Hotel Moskva, Beograd
             </p>
 

@@ -30,9 +30,9 @@ function MapPinIcon() {
 function TimelineEvent({ icon, title, address, time, mapUrl }) {
   return (
     <article className="text-center">
-      <div className="relative mx-auto mb-5 h-42 w-44 overflow-hidden">
+      <div className="relative mx-auto mb-5 h-[7.35rem] w-[7.7rem] overflow-hidden">
         <img
-          className="absolute -top-3 left-1/2 w-130 max-w-none -translate-x-1/2"
+          className="absolute -top-3 left-1/2 w-91 max-w-none -translate-x-1/2"
           src={icon}
           alt=""
         />

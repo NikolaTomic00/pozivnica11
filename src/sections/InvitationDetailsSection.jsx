@@ -53,35 +53,39 @@ function InvitationDetailsSection() {
 
       <div className="animate-border relative z-10 mx-auto bg-[conic-gradient(from_var(--border-angle),#b68d48_0_66%,#7f5d2a_73%,#e0ad4f_80%,#fff0b8_84%,#d49a36_88%,#7f5d2a_94%,#b68d48_100%)] p-1 shadow-[0_18px_35px_rgb(80_72_58_/_0.08)]">
         <div className="bg-white/88 px-8 py-10 text-center font-['Playfair_Display',serif] text-[#993e0a] backdrop-blur-[1px] sm:py-12">
-          <div className="space-y-7">
+          <div className="grid justify-items-center">
             <WeddingRingsIcon />
 
-            <div className="space-y-5">
-              <p className="text-[1.2rem] leading-[1.2] uppercase tracking-[0.2em]">
-                Dragi gosti
-              </p>
+            <p className="mt-5 max-w-72 text-[0.9rem] leading-[1.7]">
+              Pozivamo Vas da svojim prisustvom učinite naš dan posebnim.
+            </p>
 
-              <p className="mx-auto max-w-72 text-[0.9rem] leading-[1.7]">
-                Pozivamo Vas da svojim prisustvom učinite naš dan posebnim.
-              </p>
+            <p className="mt-5 font-['Geist','Arial',sans-serif] text-[1.3rem] leading-[1.2] tracking-[0.14em]">
+              07.10.2026.
+            </p>
+
+            <div className="mt-4 font-['Geist','Arial',sans-serif] text-[0.9rem] font-medium leading-[1.5]">
+              <p>13:00 h - crkveno venčanje</p>
+              <p>15:00 h - svečana proslava</p>
+              <p>16:00 h - građansko venčanje</p>
             </div>
 
-            <div className="space-y-2 text-[1rem] leading-[1.7]">
-              <p className="text-[1.3rem] leading-[1.2] tracking-[0.14em]">
-                07.10.2026.
-              </p>
-              <p className="uppercase tracking-[0.18em]">Hotel Moskva</p>
-              <p className="uppercase tracking-[0.18em]">Beograd</p>
-            </div>
+            <p className="mt-4 text-[1rem] leading-[1.45] tracking-[0.08em]">
+              Hotel Moskva, Beograd
+            </p>
 
-            <p className="mx-auto w-fit whitespace-nowrap border-b border-[#993e0a]/35 px-2 pb-1 font-['Bickham_Script_Pro',cursive] text-[2.1875rem] font-normal leading-none text-[#993e0a]/80">
+            <p className="mt-5 w-fit whitespace-nowrap font-['Bickham_Script_Pro',cursive] text-[2.1875rem] font-normal leading-none text-[#993e0a]/80">
               Porodice Jović i Marić
             </p>
 
-            <p className="mx-auto max-w-72 px-2 pt-2 text-[0.8rem] leading-[1.7]">
-              Molimo Vas da potvrdite dolazak klikom na dugme "potvrdi dolazak",
-              koje se nalazi ispod, najkasnije do{" "}
-              <span>01.09.2026.</span>
+            <span
+              className="mt-2 h-px w-3/4 max-w-62.5 bg-[#993e0a]/35"
+              aria-hidden="true"
+            />
+
+            <p className="mt-6 max-w-72 px-2 text-[0.8rem] leading-[1.7]">
+              Molimo Vas da potvrdite dolazak najkasnije do{" "}
+              <span className="font-semibold">01.09.2026.</span>
             </p>
           </div>
         </div>

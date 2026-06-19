@@ -51,7 +51,7 @@ function InvitationDetailsSection() {
         alt=""
       />
 
-      <div className="animate-border relative z-10 mx-auto bg-[conic-gradient(from_var(--border-angle),#b68d48_0_66%,#7f5d2a_73%,#e0ad4f_80%,#fff0b8_84%,#d49a36_88%,#7f5d2a_94%,#b68d48_100%)] p-1 shadow-[0_18px_35px_rgb(80_72_58_/_0.08)]">
+      <div className="relative z-10 mx-auto bg-[conic-gradient(from_var(--border-angle),#b68d48_0_66%,#7f5d2a_73%,#e0ad4f_80%,#fff0b8_84%,#d49a36_88%,#7f5d2a_94%,#b68d48_100%)] p-1 shadow-[0_18px_35px_rgb(80_72_58_/_0.08)]">
         <div className="bg-white/88 px-8 py-10 text-center font-['Playfair_Display',serif] text-[#993e0a] backdrop-blur-[1px] sm:py-12">
           <div className="grid justify-items-center">
             <WeddingRingsIcon />

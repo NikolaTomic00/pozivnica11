@@ -23,12 +23,6 @@
   syntax: "<angle>";
 }
 
-@keyframes border {
-  to {
-    --border-angle: 360deg;
-  }
-}
-
 @keyframes countdown-scan {
   from {
     transform: translateX(-100%);
@@ -71,10 +65,6 @@ body {
 #root {
   min-height: 100svh;
   background: var(--bg);
-}
-
-.animate-border {
-  animation: border 5.5s linear infinite;
 }
 
 .animate-rsvp-button-border {

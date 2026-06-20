@@ -50,7 +50,7 @@ function CountdownSection() {
 
   return (
     <section
-      className="mx-auto w-full max-w-107.5 px-6 pb-4 pt-8 [--frame-gold:#b68d48] md:max-w-140"
+      className="mx-auto w-full max-w-107.5 px-6 pb-4 pt-0 [--frame-gold:#b68d48] md:max-w-140"
       aria-label="Countdown"
     >
       <div className="mx-auto text-center text-[var(--frame-gold)]">

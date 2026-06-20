@@ -69,7 +69,7 @@ function TimelineEvent({ icon, title, address, time, mapUrl }) {
 function TimelineSection() {
   return (
     <section
-      className="mx-auto w-full max-w-107.5 px-6 pb-0 pt-6 [--frame-gold:#b68d48] md:max-w-140"
+      className="mx-auto w-full max-w-107.5 px-6 pb-8 pt-6 [--frame-gold:#b68d48] md:max-w-140"
       aria-label="Wedding day timeline"
     >
       <div className="mx-auto space-y-10 font-['Geist',Arial,sans-serif] text-black">

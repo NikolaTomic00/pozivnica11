@@ -64,7 +64,7 @@ function RSVPSection() {
       className="mx-auto w-full max-w-107.5 px-6 pb-16 pt-4 text-center [--frame-gold:#b68d48] md:max-w-140 md:pb-20"
       aria-label="RSVP"
     >
-      <div className="mx-auto flex flex-col items-center justify-center py-10 font-['Playfair_Display',serif] text-[#993e0a]">
+      <div className="mx-auto flex flex-col items-center justify-center pb-10 font-['Playfair_Display',serif] text-[#993e0a]">
         <p className="mx-auto max-w-74 text-[0.875rem] leading-[1.7] text-black">
           Molim Vas klikom na dugme ispod da potvrdite Vaš dolazak.
         </p>

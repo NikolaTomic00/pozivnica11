@@ -1,7 +1,7 @@
 function LocationSection() {
   return (
     <section
-      className="mx-auto w-full max-w-107.5 px-6 pb-12 pt-8 [--frame-gold:#b68d48] md:max-w-140"
+      className="mx-auto w-full max-w-107.5 px-6 pb-12 pt-0 [--frame-gold:#b68d48] md:max-w-140"
       aria-label="Lokacija građanskog venčanja"
     >
       <div className="mx-auto max-w-96">

@@ -30,7 +30,7 @@ function MapPinIcon() {
 function TimelineEvent({ icon, title, address, time, mapUrl }) {
   return (
     <article className="text-center">
-      <div className="relative mx-auto mb-5 h-[7.35rem] w-[7.7rem] overflow-hidden">
+      <div className="relative mx-auto mb-3 h-[7.35rem] w-[7.7rem] overflow-hidden">
         <img
           className="absolute -top-3 left-1/2 w-91 max-w-none -translate-x-1/2"
           src={icon}
@@ -38,8 +38,8 @@ function TimelineEvent({ icon, title, address, time, mapUrl }) {
         />
       </div>
 
-      <div className="space-y-5">
-        <div className="space-y-2">
+      <div className="space-y-3.5">
+        <div className="space-y-1.5">
           <h2 className="font-['Great_Vibes',cursive] text-[2.7rem] leading-none font-normal">
             {title}
           </h2>
@@ -69,10 +69,10 @@ function TimelineEvent({ icon, title, address, time, mapUrl }) {
 function TimelineSection() {
   return (
     <section
-      className="mx-auto w-full max-w-107.5 px-6 pb-8 pt-8 [--frame-gold:#b68d48] md:max-w-140"
+      className="mx-auto w-full max-w-107.5 px-6 pb-0 pt-6 [--frame-gold:#b68d48] md:max-w-140"
       aria-label="Wedding day timeline"
     >
-      <div className="mx-auto space-y-14 font-['Geist',Arial,sans-serif] text-black">
+      <div className="mx-auto space-y-10 font-['Geist',Arial,sans-serif] text-black">
         <TimelineEvent
           icon={assetPath("3.1.png")}
           title="Crkveno venčanje"

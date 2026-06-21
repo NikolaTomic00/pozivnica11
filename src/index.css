@@ -45,6 +45,27 @@
   }
 }
 
+@keyframes profile-frame-arrive {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes profile-name-arrive {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes profile-leaf-arrive {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 :root {
   --bg:
     radial-gradient(circle at 84% 86%, #f8f8f8 0 18%, rgb(248 248 248 / 0) 45%),
@@ -79,4 +100,71 @@ body {
 
 .animate-rsvp-button-border {
   animation: rsvp-button-border 3s linear infinite;
+}
+
+.profile-frame-arrive {
+  opacity: 0;
+  transform: translateY(18px) scale(0.985);
+  animation: profile-frame-arrive 1.15s cubic-bezier(0.22, 1, 0.36, 1) 120ms forwards;
+}
+
+.profile-photo-mask {
+  clip-path: inset(0 0 100% 0 round 9999px 9999px 0 0);
+  transition: clip-path 1.35s cubic-bezier(0.22, 1, 0.36, 1) 260ms;
+}
+
+.profile-frame-arrive.is-loaded .profile-photo-mask {
+  clip-path: inset(0 round 9999px 9999px 0 0);
+}
+
+.profile-photo-arrive {
+  opacity: 0;
+  transform: scale(1.075);
+  transition:
+    opacity 800ms ease 260ms,
+    transform 1.8s cubic-bezier(0.22, 1, 0.36, 1) 260ms;
+}
+
+.profile-frame-arrive.is-loaded .profile-photo-arrive {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.profile-leaf-arrive {
+  opacity: 0;
+  transform: translate3d(10px, 14px, 0) scale(0.98);
+  transform-origin: 72% 28%;
+  animation: profile-leaf-arrive 1.2s cubic-bezier(0.22, 1, 0.36, 1) 420ms forwards;
+  will-change: opacity, transform;
+}
+
+.profile-name-arrive {
+  opacity: 0;
+  transform: translateY(105%);
+  animation: profile-name-arrive 1s cubic-bezier(0.22, 1, 0.36, 1) 820ms forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-frame-arrive,
+  .profile-photo-arrive,
+  .profile-leaf-arrive,
+  .profile-name-arrive {
+    opacity: 1;
+    transform: none;
+  }
+
+  .profile-frame-arrive,
+  .profile-leaf-arrive,
+  .profile-name-arrive {
+    animation: none;
+  }
+
+  .profile-photo-mask {
+    clip-path: none;
+    transition: none;
+  }
+
+  .profile-photo-arrive {
+    transition: none;
+  }
 }

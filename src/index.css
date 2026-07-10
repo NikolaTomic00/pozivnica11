@@ -102,19 +102,56 @@ body {
   animation: rsvp-button-border 3s linear infinite;
 }
 
+.music-progress {
+  height: 0.28rem;
+  appearance: none;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    #993e0a 0 var(--progress),
+    rgb(182 141 72 / 0.26) var(--progress) 100%
+  );
+}
+
+.music-progress::-webkit-slider-thumb {
+  width: 0.85rem;
+  height: 0.85rem;
+  appearance: none;
+  border: 2px solid #faf7f1;
+  border-radius: 50%;
+  background: #993e0a;
+  box-shadow: 0 1px 5px rgb(80 50 30 / 0.24);
+}
+
+.music-progress::-moz-range-thumb {
+  width: 0.65rem;
+  height: 0.65rem;
+  border: 2px solid #faf7f1;
+  border-radius: 50%;
+  background: #993e0a;
+  box-shadow: 0 1px 5px rgb(80 50 30 / 0.24);
+}
+
 .profile-frame-arrive {
   opacity: 0;
   transform: translateY(18px) scale(0.985);
   animation: profile-frame-arrive 1.15s cubic-bezier(0.22, 1, 0.36, 1) 120ms forwards;
 }
 
+.profile-frame-shell {
+  border: 1px solid rgb(182 141 72 / 0.72);
+  border-radius: 52% 52% 4px 4px / 34% 34% 4px 4px;
+}
+
 .profile-photo-mask {
-  clip-path: inset(0 0 100% 0 round 9999px 9999px 0 0);
+  border: 1px solid rgb(182 141 72 / 0.58);
+  border-radius: 52% 52% 2px 2px / 34% 34% 2px 2px;
+  clip-path: inset(0 0 100% 0 round 52% 52% 2px 2px / 34% 34% 2px 2px);
   transition: clip-path 1.35s cubic-bezier(0.22, 1, 0.36, 1) 260ms;
 }
 
 .profile-frame-arrive.is-loaded .profile-photo-mask {
-  clip-path: inset(0 round 9999px 9999px 0 0);
+  clip-path: inset(0 round 52% 52% 2px 2px / 34% 34% 2px 2px);
 }
 
 .profile-photo-arrive {

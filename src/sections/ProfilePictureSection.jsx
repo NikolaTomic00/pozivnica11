@@ -15,8 +15,8 @@ function ProfilePictureSection() {
         alt=""
       />
 
-      <div className={`profile-frame-arrive relative z-20 mx-auto aspect-[0.635] w-[clamp(258px,61vw,336px)] overflow-hidden rounded-t-full bg-[conic-gradient(from_var(--border-angle),#b68d48_0_66%,#7f5d2a_73%,#e0ad4f_80%,#fff0b8_84%,#d49a36_88%,#7f5d2a_94%,#b68d48_100%)] p-[clamp(3px,0.85vw,5px)] shadow-[0_16px_28px_rgb(80_72_58_/_0.08)] md:w-84${isPhotoLoaded ? " is-loaded" : ""}`}>
-        <div className="profile-photo-mask relative h-full w-full overflow-hidden rounded-t-full bg-[var(--frame-gold)] shadow-[inset_0_0_0_1px_rgb(255_255_255_/_0.22)] after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:content-[''] after:shadow-[inset_0_1px_0_rgb(255_255_255_/_0.34),inset_0_-1px_0_rgb(96_66_25_/_0.2)]">
+      <div className={`profile-frame-arrive profile-frame-shell relative z-20 mx-auto aspect-[3/4] w-[clamp(286px,70vw,360px)] overflow-hidden bg-white/45 p-[clamp(7px,1.8vw,9px)] shadow-[0_22px_55px_rgb(80_72_58_/_0.11)] md:w-90${isPhotoLoaded ? " is-loaded" : ""}`}>
+        <div className="profile-photo-mask relative h-full w-full overflow-hidden bg-[var(--frame-gold)] shadow-[inset_0_0_0_1px_rgb(255_255_255_/_0.22)] after:pointer-events-none after:absolute after:inset-0 after:rounded-[inherit] after:content-[''] after:shadow-[inset_0_1px_0_rgb(255_255_255_/_0.34),inset_0_-1px_0_rgb(96_66_25_/_0.2)]">
           <img
             className="profile-photo-arrive block h-full w-full object-cover object-[48%_50%]"
             src={assetPath("profilepic.jpg")}

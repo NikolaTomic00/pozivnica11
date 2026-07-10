@@ -1,10 +1,10 @@
 import InvitationDetailsSection from './sections/InvitationDetailsSection'
 import CountdownSection from './sections/CountdownSection'
 import FooterSection from './sections/FooterSection'
-import LocationSection from './sections/LocationSection'
 import ProfilePictureSection from './sections/ProfilePictureSection'
 import RSVPSection from './sections/RSVPSection'
 import TimelineSection from './sections/TimelineSection'
+import MusicSection from './sections/MusicSection'
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
       <ProfilePictureSection />
       <InvitationDetailsSection />
       <TimelineSection />
+      <MusicSection />
       <CountdownSection />
       <RSVPSection />
-      <LocationSection />
       <FooterSection />
     </main>
   )
